@@ -8,4 +8,4 @@ RUN npm run build
 #stage2
 FROM https:alpine3.15
 WORKDIR  /usr/local/apache2/htdocs
-COPY --from=angular /app/dist/angularcalculator .
+COPY --from=angular /app/dist/angularCalc .
